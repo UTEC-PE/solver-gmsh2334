@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/GMSH/Desktop/AED/solver-gmsh2334/cases.h
+iostream
+-
+node.h
+C:/Users/GMSH/Desktop/AED/solver-gmsh2334/node.h
+string
+-
+vector
+-
+regex
+-
+tuple
+-
+
+C:/Users/GMSH/Desktop/AED/solver-gmsh2334/main.cpp
+iostream
+-
+iostream
+-
+string
+-
+vector
+-
+tuple
+-
+cases.h
+C:/Users/GMSH/Desktop/AED/solver-gmsh2334/cases.h
+
+C:/Users/GMSH/Desktop/AED/solver-gmsh2334/node.h
+
