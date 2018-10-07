@@ -24,12 +24,21 @@ void menu() {
     cout << tree.start();
 }
 
+// No resuelve unarios, ni variables
+// No trabaja paréntesis, ni simplifica operadores (e.g. +-, --, ++. etc)
 int main(int argc, char const *argv[]) {
+    if (argc == 2) {
+        auto * str= const_cast<char *>(argv[1]);
+        Tree<string> tree(str);
+        cout << tree.start();
+    } else {
+      throw "One argument expected";
+    }
+    cout << endl;
+    //menu();
 
-    menu();
-
-    cout << "\nPress enter to continue ..."; 
-    cin.get(); 
+    //cout << "\nPress enter to continue ..."; 
+    //cin.get(); 
     return EXIT_SUCCESS;
 }
 
